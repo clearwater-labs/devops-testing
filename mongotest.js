@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
 // Connection URL
-const url = process.env.DB_URL;
+const url = `'${process.env.DB_URL}';
 
 // Database Name
 const dbName = 'travis-monitor';
