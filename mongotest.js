@@ -3,6 +3,7 @@ const assert = require('assert');
 
 // Connection URL
 const url = `'${process.env.DB_URL}'`;
+console.log(url);
 
 // Database Name
 const dbName = 'travis-monitor';
